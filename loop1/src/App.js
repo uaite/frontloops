@@ -24,6 +24,7 @@ const TileContainer = styled.div`
   border-radius: 4px;
   padding: 1em;
   background: #f3f3f3;
+  box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
 `
 TileContainer.displayName = 'TileContainer';
 
