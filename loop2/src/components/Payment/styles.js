@@ -27,6 +27,7 @@ export const Title = styled.h1`
     font-size: 1.3em;
     color: #333;
     text-align: center;
+    margin-top: 10px;
 `;
 Title.displayName = 'PaymentTitle';
 

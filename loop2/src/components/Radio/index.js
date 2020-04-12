@@ -1,6 +1,11 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Option } from './styles';
+
+import check from '../../assets/img/check.svg';
+import visa from '../../assets/img/visa.svg';
+import mastercard from '../../assets/img/mastercard.svg';
+import maestro from '../../assets/img/maestro.svg';
 
 let id = 0;
 
@@ -8,14 +13,23 @@ const Radio = () => {
     
     return (
         <Container>
-            <input type="radio" id="optionVisa" name={`radio-${id}`} value="Visa" checked />
-            <label for="optionVisa">Visa</label>
+            <Option>
+                <input type="radio" id="optionVisa" name={`radio-${id}`} value="Visa" />
+                <span>Visa</span>
+                <img src={visa}/>
+            </Option>
 
-            <input type="radio" id="optionMastercard" name={`radio-${id}`} value="MasterCard" />
-            <label for="optionMastercard">MasterCard</label>
+            <Option>
+                <input type="radio" id="optionMastercard" name={`radio-${id}`} value="MasterCard" />
+                <span>MasterCard</span>
+                <img src={mastercard}/>
+            </Option>
 
-            <input type="radio" id="optionMaestro" name={`radio-${id}`} value="Maestro" />
-            <label for="optionMaestro">Maestro</label> 
+            <Option>
+                <input type="radio" id="optionMaestro" name={`radio-${id}`} value="Maestro" />
+                <span>Maestro</span>
+                <img src={maestro}/>
+            </Option>
         </Container> 
     );
 };

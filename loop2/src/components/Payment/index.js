@@ -10,7 +10,7 @@ import arrow from '../../assets/img/arrow.svg';
 
 const StyledRadio = styled(Radio)`
     flex: 1 1 auto;
-`;
+`; // this didn't work. why?
 
 const Payment = () => (
     <Container>

@@ -5,7 +5,7 @@ import { Container, Step } from './styles';
 const StepCounter = ({ steps, activeStep }) => {
     return (
         <Container>
-            {[...Array(steps).keys()].map(i => <Step className={activeStep - 1 === i ? 'active' : ''}/>)}
+            {[...Array(steps).keys()].map(i => <Step key={i} className={activeStep - 1 === i ? 'active' : ''}/>)}
         </Container>
     );
 };
