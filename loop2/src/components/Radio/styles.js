@@ -25,6 +25,14 @@ export const Option = styled.label.attrs(props => ({
         background-color: #ddd;
     }
 
+    :hover {
+        background-color: #eee;
+    }
+
+    :active {
+        background-color: #d9d9d9;
+    }
+
     ${/* this hides the radio button*/ void 0}
     > input[type="radio"] {
         position: absolute;
@@ -41,6 +49,7 @@ export const Option = styled.label.attrs(props => ({
         text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 1.1;
+        color: #888;
     }
 
     > img {
@@ -51,6 +60,7 @@ export const Option = styled.label.attrs(props => ({
 
     > input[type="radio"]:checked + span {
         background: url(${check}) no-repeat calc(100% - 5px);
+        color: #000;
     }
 `;
 Option.displayName = 'RadioOption';
