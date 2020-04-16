@@ -1,9 +1,0 @@
-{
-  "short_name": "Frontloops Loop 1 App",
-  "name": "Frontloops challenge day 1",
-  "icons": [],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
