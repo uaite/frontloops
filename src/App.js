@@ -66,7 +66,7 @@ const App = () => {
   const [currentTab, setCurrentTab] = useState('');
 
   return (
-      <Router>
+      <Router basename="/frontloops">
           <Navbar className="App-header">
             <NavbarTitle>
               <Link to='/' onClick={() => setCurrentTab('/')}>Frontloops</Link>
