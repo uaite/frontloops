@@ -19,6 +19,7 @@ export const Option = styled.label.attrs(props => ({
     border-top: 1px solid #ddd;
     flex: 1 1 auto;
     padding: 10px 15px;
+    cursor: pointer;
 
     :focus {
         outline: 0;
