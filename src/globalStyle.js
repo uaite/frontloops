@@ -13,6 +13,20 @@ export const GlobalStyle = createGlobalStyle`
     p {
       line-height: 1.2;
     }
+
+    a {
+      text-decoration: none;
+      color: #f0f0f0;
+      transition: 0.3s;
+
+      :hover {
+        color: #aaa;
+      }
+
+      :focus {
+        outline: 0;
+      }
+    }
   }
 
   * {
