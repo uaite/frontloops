@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/frontloops/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/frontloops/static/js/main.99c4a088.chunk.js",
+    "main.js.map": "/frontloops/static/js/main.99c4a088.chunk.js.map",
+    "runtime-main.js": "/frontloops/static/js/runtime-main.9da1136a.js",
+    "runtime-main.js.map": "/frontloops/static/js/runtime-main.9da1136a.js.map",
+    "static/js/2.e9c03b60.chunk.js": "/frontloops/static/js/2.e9c03b60.chunk.js",
+    "static/js/2.e9c03b60.chunk.js.map": "/frontloops/static/js/2.e9c03b60.chunk.js.map",
+    "index.html": "/frontloops/index.html",
+    "precache-manifest.0d8b6cacffa2a52c9c30ee8c3f6abe75.js": "/frontloops/precache-manifest.0d8b6cacffa2a52c9c30ee8c3f6abe75.js",
+    "service-worker.js": "/frontloops/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/frontloops/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.e9c03b60.chunk.js.LICENSE.txt": "/frontloops/static/js/2.e9c03b60.chunk.js.LICENSE.txt",
+    "static/media/account.svg": "/frontloops/static/media/account.346bbfda.svg",
+    "static/media/arrow.svg": "/frontloops/static/media/arrow.380aa4fc.svg",
+    "static/media/bicycle.png": "/frontloops/static/media/bicycle.cdbf3542.png",
+    "static/media/check.svg": "/frontloops/static/media/check.f611c051.svg",
+    "static/media/close.svg": "/frontloops/static/media/close.7b66831c.svg",
+    "static/media/device.svg": "/frontloops/static/media/device.a6e91886.svg",
+    "static/media/github.svg": "/frontloops/static/media/github.c1356d39.svg",
+    "static/media/laptop.svg": "/frontloops/static/media/laptop.54863705.svg",
+    "static/media/linkedin.svg": "/frontloops/static/media/linkedin.f7b18d21.svg",
+    "static/media/maestro.svg": "/frontloops/static/media/maestro.10658eed.svg",
+    "static/media/mastercard.svg": "/frontloops/static/media/mastercard.8372b944.svg",
+    "static/media/monitor.svg": "/frontloops/static/media/monitor.ef7c9e48.svg",
+    "static/media/twitter.svg": "/frontloops/static/media/twitter.89eaa742.svg",
+    "static/media/visa.svg": "/frontloops/static/media/visa.1453b285.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9da1136a.js",
+    "static/js/2.e9c03b60.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.99c4a088.chunk.js"
+  ]
+}
