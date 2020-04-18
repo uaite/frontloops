@@ -13,7 +13,7 @@ const allOrders = [
 const Orders = () => (
     <Container>
         <Header></Header>
-        <OrderList orders={allOrders}/>
+        <OrderList orders={allOrders} />
     </Container>
 );
 export default Orders;
