@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import styled from 'styled-components';
 
 import modules from './modules';
@@ -66,7 +66,7 @@ const App = () => {
   const [currentTab, setCurrentTab] = useState('');
 
   return (
-      <Router basename="/frontloops">
+      <Router>
           <Navbar className="App-header">
             <NavbarTitle>
               <Link to='/' onClick={() => setCurrentTab('/')}>Frontloops</Link>
