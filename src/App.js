@@ -27,7 +27,7 @@ const NavbarTitle = styled.a`
   letter-spacing: 0.1em;
   font-size: 1.2em;
 `;
-NavbarTitle.displayName = NavbarTitle;
+NavbarTitle.displayName = 'NavbarTitle';
 
 const NavbarLinks = styled.ul`
   list-style: none;
