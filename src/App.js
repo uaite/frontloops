@@ -20,7 +20,7 @@ const Navbar = styled.nav`
 `;
 Navbar.displayName = 'Navbar';
 
-const NavbarTitle = styled.a`
+const NavbarTitle = styled.div`
   color: #f0f0f0;
   font-weight: 600;
   grid-area: logo;
